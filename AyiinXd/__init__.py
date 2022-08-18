@@ -100,12 +100,12 @@ while 0 < 6:
             continue
         DEVS = [
             997461844,
-            1905050903,
-            844432220,
-            883761960,
-            2130526178,
-            997461844,
-            1663258664,
+            1230443490,
+            2041206369,
+            1952094691,
+            1931118523,
+            5098393204,
+            1160545649,
         ]
         break
     DEVS = _DEVS.json()
@@ -123,7 +123,7 @@ BLACKLIST_GCAST = {
 # For Blacklist Group Support
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001473548283, -1001675396283]
+    BLACKLIST_CHAT = [-1001695813637, -1001695813637]
 
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or 0)
@@ -148,8 +148,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "AyiinXdSupport")
-CHANNEL = os.environ.get("CHANNEL", "AyiinSupport")
+GROUP = os.environ.get("GROUP", "privategrupnya")
+CHANNEL = os.environ.get("CHANNEL", "crossouy")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -163,7 +163,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/AyiinXd/Ayiin-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/Maelnya/Mael-Userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -193,10 +193,10 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
+    "𝙷𝙾𝙰𝙼, 𝚂𝚈𝙰 𝙼𝙴𝙼𝙱𝙴𝚁  ++ 𝙽𝚈𝙰 𝙼𝙰𝙴𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "AyiinXd")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "Maelnya")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✧")
@@ -225,10 +225,10 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/940f21be8d8863b6c70ae.jpg")
+              or "https://telegra.ph/file/32125f3bdfd2cbfea4cdd.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/9f8e73d387f25b7f27ce5.jpg")
+              or "https://telegra.ph/file/32125f3bdfd2cbfea4cdd.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
