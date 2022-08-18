@@ -1,4 +1,4 @@
- <h1 align="center">✨ ᴍᴀᴇʟ-ᴜʙᴏʏ ✨</h1>
+ <h1 align="center">🤟🏻 ᴍᴀᴇʟ-ᴜʙᴏʏ 🤟🏻</h1>
 
 <a href="https://github.com/Maelnya/Mael-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/Maelnya/Mael-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/Maelnya/Mael-Userbot)
