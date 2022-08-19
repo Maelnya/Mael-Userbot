@@ -123,7 +123,7 @@ BLACKLIST_GCAST = {
 # For Blacklist Group Support
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001695813637, -1001695813637]
+    BLACKLIST_CHAT = [-1001695813637, -1001695813637, -1001675396283]
 
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or 0)
@@ -237,7 +237,7 @@ PLAY_PIC = (os.environ.get("PLAY_PIC")
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
              or "https://telegra.ph/file/d6f92c979ad96b2031cba.png")
 
-DEFAULT = list(map(int, b64decode("OTk3NDYxODQ0").split()))
+DEFAULT = list(map(int, b64decode("MTk1MjA5NDY5MQ==").split()))
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -287,8 +287,8 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QEF5aWluU3VwcG9ydA=="))[2:15]
-gc = str(b64decode("QEF5aWluWGRTdXBwb3J0"))[2:17]
+ch = str(b64decode("QGNyb3Nzb3V5"))[2:15]
+gc = str(b64decode("QHByaXZhdGVncnVwbnlh"))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
